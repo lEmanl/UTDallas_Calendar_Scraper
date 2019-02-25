@@ -16,7 +16,8 @@ event (#event-detail .cat-events.thirty-type)
 
 */
 
-exports.webScrapper = function () {
+//  export of webScraper function with callback
+exports.webScraper = function (callback) {
     /*
         Gets our html data from utdallas calendar website
     */
@@ -55,10 +56,13 @@ exports.webScrapper = function () {
                 console.log(events[index])
             })
 
-            return events
+            //  if successfully got data, then callback function used with events object passed to it
+            return callback(events)
         })
     }).on("error", (err) => {
         console.log("Error: " + err.message)
+
+        //  return error if error on get request
         return "err"
     })
 }
