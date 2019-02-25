@@ -1,11 +1,11 @@
 # UTDallas_Calendar_Scraper
 This is a web scraper for the UT Dallas comet calendar
-Since UTD doesn't have any api's for campus information, we need to make some web scrapers for the information they make public.
-This was made for hackUTD 2019
+\nSince UTD doesn't have any api's for campus information, we need to make some web scrapers for the information they make public.
+\nThis was made for hackUTD 2019
 
 # Requirements
 Node 11.9.5
-Cheerio 1.0.0
+\nCheerio 1.0.0
 
 # How to
 example.js cover how to use the module.
