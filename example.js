@@ -1,3 +1,5 @@
-let scrap = require('./web_scrap')
+//  example.js
 
-console.log(web_scrapper)
+const scrap = require('./web_scrap.js')
+
+console.log(scrap.webScrapper())

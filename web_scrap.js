@@ -1,3 +1,5 @@
+//  web_scrap.js
+
 const https = require("https")
 const cheerio = require("cheerio")
 
@@ -14,7 +16,7 @@ event (#event-detail .cat-events.thirty-type)
 
 */
 
-export default function web_scrapper() {
+exports.webScrapper = function () {
     /*
         Gets our html data from utdallas calendar website
     */
