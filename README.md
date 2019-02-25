@@ -4,8 +4,8 @@ Since UTD doesn't have any api's for campus information, we need to make some we
 This was made for hackUTD 2019  
 
 # Requirements
-Node 11.9.5
-Cheerio 1.0.0  
+Node 11.9.5. 
+Cheerio 1.0.0   
 
 # How to
 example.js cover how to use the module.
