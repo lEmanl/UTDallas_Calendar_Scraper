@@ -8,7 +8,10 @@ Node 11.9.5. </br>
 Cheerio 1.0.0   
 
 # How to
-example.js cover how to use the module.
+example.js covers how to use the module.
 
 # Other sources for UTDallas information
 Someone has made a scraper to get information on UTDallas parking structure parking, so check that out here if interested: https://github.com/codes4coffee/utdParkingAPI
+
+# Fin
+If the someone stubles upon this (which they wont) and they have questions then just email me or something
